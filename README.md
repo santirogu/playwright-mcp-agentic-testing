@@ -5,9 +5,7 @@
 > reproducible **Playwright-MCP agentic workflow** that turns plain-English
 > acceptance criteria into reviewed, production-grade tests.
 
-<!-- Replace YOUR_GITHUB_USERNAME/REPO with your repo path once pushed. -->
-
-[![Playwright Tests](https://github.com/YOUR_GITHUB_USERNAME/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_GITHUB_USERNAME/REPO/actions/workflows/ci.yml)
+[![Playwright Tests](https://github.com/santirogu/playwright-mcp-agentic-testing/actions/workflows/ci.yml/badge.svg)](https://github.com/santirogu/playwright-mcp-agentic-testing/actions/workflows/ci.yml)
 [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white)](https://playwright.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![MCP](https://img.shields.io/badge/Model_Context_Protocol-enabled-6E56CF)](https://modelcontextprotocol.io/)
@@ -91,8 +89,8 @@ playwright.config.ts           # 3 browsers, traces/screenshots on failure, no s
 
 ```bash
 # 1. Clone and install
-git clone https://github.com/YOUR_GITHUB_USERNAME/REPO.git
-cd REPO
+git clone https://github.com/santirogu/playwright-mcp-agentic-testing.git
+cd playwright-mcp-agentic-testing
 npm install
 
 # 2. Install the Playwright browsers
@@ -147,7 +145,7 @@ augmentation, not blind shipping.
 
 ## CI/CD
 
-[`.github/workflows/ci.yml`](.github/workflows/ci.yml) runs on every push/PR to `main`:
+[`.github/workflows/ci.yml`](.github/workflows/ci.yml) runs on every push/PR to `main`/`master`:
 
 1. **Quality gate** — ESLint, `tsc` typecheck, and Prettier check.
 2. **Tests** — a matrix of **3 browsers × 2 shards = 6 parallel jobs**, each
