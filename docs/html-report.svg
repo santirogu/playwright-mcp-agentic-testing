@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="480" viewBox="0 0 900 480" font-family="ui-sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Placeholder for a screenshot of the Playwright HTML report">
+  <!-- window -->
+  <rect x="0" y="0" width="900" height="480" rx="14" fill="#ffffff"/>
+  <rect x="0.5" y="0.5" width="899" height="479" rx="14" fill="none" stroke="#e5e7eb"/>
+
+  <!-- title bar -->
+  <rect x="0" y="0" width="900" height="44" rx="14" fill="#f3f4f6"/>
+  <rect x="0" y="30" width="900" height="14" fill="#f3f4f6"/>
+  <circle cx="26" cy="22" r="6" fill="#ff5f56"/>
+  <circle cx="48" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="70" cy="22" r="6" fill="#27c93f"/>
+  <text x="450" y="27" text-anchor="middle" font-size="13" fill="#9ca3af">Playwright Test Report</text>
+
+  <!-- summary cards -->
+  <g>
+    <rect x="28" y="66" width="180" height="70" rx="10" fill="#ecfdf3" stroke="#a7f3d0"/>
+    <text x="44" y="98" font-size="13" fill="#047857">Passed</text>
+    <text x="44" y="124" font-size="26" font-weight="700" fill="#059669">51</text>
+
+    <rect x="222" y="66" width="180" height="70" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+    <text x="238" y="98" font-size="13" fill="#b91c1c">Failed</text>
+    <text x="238" y="124" font-size="26" font-weight="700" fill="#dc2626">0</text>
+
+    <rect x="416" y="66" width="180" height="70" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="432" y="98" font-size="13" fill="#6b7280">Skipped</text>
+    <text x="432" y="124" font-size="26" font-weight="700" fill="#374151">0</text>
+
+    <rect x="610" y="66" width="262" height="70" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+    <text x="626" y="98" font-size="13" fill="#6b7280">Total duration</text>
+    <text x="626" y="124" font-size="26" font-weight="700" fill="#374151">38.2s</text>
+  </g>
+
+  <!-- test rows -->
+  <g font-size="14">
+    <line x1="28" y1="168" x2="872" y2="168" stroke="#eef0f2"/>
+    <g>
+      <circle cx="40" cy="196" r="6" fill="#10b981"/>
+      <text x="60" y="201" fill="#111827">auth.spec.ts › locked-out user is rejected with a clear error</text>
+      <text x="850" y="201" text-anchor="end" fill="#9ca3af">chromium · 1.0s</text>
+    </g>
+    <line x1="28" y1="222" x2="872" y2="222" stroke="#eef0f2"/>
+    <g>
+      <circle cx="40" cy="250" r="6" fill="#10b981"/>
+      <text x="60" y="255" fill="#111827">checkout.spec.ts › completes an order end-to-end</text>
+      <text x="850" y="255" text-anchor="end" fill="#9ca3af">webkit · 1.6s</text>
+    </g>
+    <line x1="28" y1="276" x2="872" y2="276" stroke="#eef0f2"/>
+    <g>
+      <circle cx="40" cy="304" r="6" fill="#10b981"/>
+      <text x="60" y="309" fill="#111827">cart.spec.ts › removing an item decrements the badge</text>
+      <text x="850" y="309" text-anchor="end" fill="#9ca3af">firefox · 0.9s</text>
+    </g>
+    <line x1="28" y1="330" x2="872" y2="330" stroke="#eef0f2"/>
+    <g>
+      <circle cx="40" cy="358" r="6" fill="#10b981"/>
+      <text x="60" y="363" fill="#111827">api.spec.ts › GET /users/1 returns a well-formed user</text>
+      <text x="850" y="363" text-anchor="end" fill="#9ca3af">— · 0.4s</text>
+    </g>
+    <line x1="28" y1="384" x2="872" y2="384" stroke="#eef0f2"/>
+  </g>
+
+  <!-- placeholder banner -->
+  <rect x="28" y="410" width="844" height="42" rx="10" fill="#f9fafb" stroke="#e5e7eb"/>
+  <text x="450" y="436" text-anchor="middle" font-size="13" fill="#6b7280">
+    PLACEHOLDER · replace docs/html-report.svg with a screenshot of your real HTML report
+  </text>
+</svg>

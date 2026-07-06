@@ -1,0 +1,10 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/mcp.json",
+  "_comment": "Drop-in MCP server config. Works in Claude Desktop, Claude Code, Cursor, VS Code (Copilot), or any MCP-capable client. The '--isolated' flag keeps each session in a fresh browser profile; '--browser chromium' pins the engine used for the a11y snapshot.",
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest", "--browser", "chromium", "--isolated"]
+    }
+  }
+}
